@@ -1,4 +1,4 @@
-with orders as (
+
 
     select
         id as order_id,
@@ -7,7 +7,3 @@ with orders as (
         status
 
     from raw.jaffle_shop.orders
-
-)
-
-select * from orders
